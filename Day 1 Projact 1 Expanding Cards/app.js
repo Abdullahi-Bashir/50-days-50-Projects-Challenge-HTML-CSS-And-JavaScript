@@ -1,5 +1,5 @@
 const panels = document.querySelectorAll('.panel')
-
+// added new comment
 panels.forEach(panel => {
     panel.addEventListener('click', () => {
         removeActiveClasses()
